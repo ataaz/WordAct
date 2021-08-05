@@ -2,8 +2,14 @@
 $primaryFonts:    Helvetica, sans-serif;
 $primaryColor: red;
 
-// Imports
-@import 'bootstrap/dist/css/bootstrap.css';
+// Import partials
 @import 'assets/sass/Header';
 @import 'assets/sass/Footer';
 @import 'assets/sass/Misc';
+
+// Bootstrap Core Files
+@import 'bootstrap-scss/bootstrap';
+// @import 'bootstrap/dist/css/bootstrap.css';
+
+// AOS Animation
+@import 'aos/dist/aos.css';
