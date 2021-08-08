@@ -37,7 +37,6 @@ function Home() {
           <>
           <MetaComponent title={page.yoast_head_json.og_title} description={page.yoast_head_json.og_description}/>
           <Intro/>
-          
           </>
         ) : null};
     </div>

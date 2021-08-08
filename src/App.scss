@@ -1,6 +1,27 @@
+// Fonts
+@font-face {
+    font-family: 'asl';
+    src: url('assets/fonts/AzoSansLight/AzoSansLight.eot?#iefix') format('embedded-opentype'),
+        url('assets/fonts/AzoSansLight/AzoSansLight.woff2') format('woff2'),
+        url('assets/fonts/AzoSansLight/AzoSansLight.woff') format('woff'),
+        url('assets/fonts/AzoSansLight/AzoSansLight.ttf') format('truetype'),
+        url('assets/fonts/AzoSansLight/AzoSansLight.svg#bsl') format('svg');
+}
+
+@font-face {
+    font-family: 'asm';
+    src: url('assets/fonts/AzoSansMedium/AzoSansMedium.eot?#iefix') format('embedded-opentype'),
+        url('assets/fonts/AzoSansMedium/AzoSansMedium.woff2') format('woff2'),
+        url('assets/fonts/AzoSansMedium/AzoSansMedium.woff') format('woff'),
+        url('assets/fonts/AzoSansMedium/AzoSansMedium.ttf') format('truetype'),
+        url('assets/fonts/AzoSansMedium/AzoSansMedium.svg#bsl') format('svg');
+}
+
 // Vars
-$primaryFonts:    Helvetica, sans-serif;
-$primaryColor: red;
+$primaryFont:    'asl';
+$secondaryFont:    'asm';
+$primaryColor: #484848;
+$secondaryColor: #2f76b4;
 
 // Import partials
 @import 'assets/sass/Header';
@@ -13,3 +34,4 @@ $primaryColor: red;
 
 // AOS Animation
 @import 'aos/dist/aos.css';
+

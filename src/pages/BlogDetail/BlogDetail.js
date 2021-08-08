@@ -32,7 +32,7 @@ function BlogDetailComponent() {
   const cleanedDate = new Date().toDateString();
   
   return (
-    <div className="BlogDetail SingleURL">
+    <div className="BlogDetail">
         {status === "success" ? (
           <>
           <MetaComponent title={pageid.yoast_head_json.og_title} description={pageid.yoast_head_json.og_description}/>
